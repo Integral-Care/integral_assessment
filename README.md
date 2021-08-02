@@ -24,12 +24,12 @@ Write a Node.js Express server that has 3 routes
 
 - Please utilize any node packages/modules that you seem fit for the project
 
-1. *1st route* This route queries the Number Conversion SOAP Api [NumberConversion API](https://www.dataaccess.com/webservicesserver/NumberConversion.wso?op=NumberToWords) and returns the value returned from the api
+1. *1st route* This route should query the Number Conversion SOAP Api [NumberConversion API](https://www.dataaccess.com/webservicesserver/NumberConversion.wso?op=NumberToWords) and returns the value returned from the api
     - This route requires 1 paramater.
         - Paramater named 'num' : The value of this param will be an int (e.g. 5)
     - This route should return the value returned from the NumberConversion api.
 
-2. *2nd route* This route queries [Covid 19 API](https://github.com/M-Media-Group/Covid-19-API) and returns the value of the `Confirmed` cases for `Texas`.
+2. *2nd route* This route should query [Covid 19 API](https://github.com/M-Media-Group/Covid-19-API) and returns the value of the `Confirmed` cases for `Texas`.
     - This route required no paramaters.
     - This route should return the number of confirmed cases returned from the Covid 19 API
 
