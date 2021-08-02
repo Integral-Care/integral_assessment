@@ -7,7 +7,7 @@ The assessment will require 2 separate projects.
 
 Write a python script that queries [Rfam's Public Mysql Database](https://docs.rfam.org/en/latest/database.html) database and prints the results to the console.
 
-- The scheme of the tables can be viewed at the above link
+- The schema of the tables can be viewed at the above link
 - Credentials to the database are also included in the above link
 - Please utilize the `Rfam` database
 - Please utilize any python package that you seem fit for the project
