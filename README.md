@@ -3,7 +3,7 @@
 The following assessment will test your knowledge in an array of languages and frameworks and API architectures.
 The assessment will require 2 separate projects.
 
-## 1st project: Python
+## 1st project: Python / SQL
 
 Write a python script that queries [Rfam's Public Mysql Database](https://docs.rfam.org/en/latest/database.html) database and prints the results to the console.
 
