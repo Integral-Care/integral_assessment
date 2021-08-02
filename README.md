@@ -7,15 +7,16 @@ The assessment will require 2 separate projects.
 
 Write a python script that queries [Rfam's Public Mysql Database](https://docs.rfam.org/en/latest/database.html) database and prints the results to the console.
 
-- The scheme of the tables can be viewed on the above link
+- The scheme of the tables can be viewed at the above link
+- Credentials to the database are also included in the above link
+- Please utilize the `Rfam` database
+- Please utilize any python package that you seem fit for the project
 
 Data to be returned from query:
     - Please return all rows who's author includes `Griffiths-Jones Sr` and who's number of species is greater than `500` from the family table
     - Please return the family.description, family.number_of_species, clan.description, and family.author 
 
 - Please make sure your code is on github and provide us the url. 
-
-Query Stack overflow's database
 
 ## 2nd project: Node.js / Express
 
