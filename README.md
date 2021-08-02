@@ -12,7 +12,7 @@ Write a python script that queries [Rfam's Public Mysql Database](https://docs.r
 - Please utilize the `Rfam` database
 - Please utilize any python package that you seem fit for the project
 
-Data to be returned from query:
+- Data to be returned from query:
     - Please return all rows who's author includes `Griffiths-Jones Sr` and who's number of species is greater than `500` from the family table
     - Please return the family.description, family.number_of_species, clan.description, and family.author 
 
@@ -24,16 +24,16 @@ Write a Node.js Express server that has 3 routes
 
 - Please utilize any node packages/modules that you seem fit for the project
 
-1st route) This route queries the Number Conversion SOAP Api [NumberConversion API](https://www.dataaccess.com/webservicesserver/NumberConversion.wso?op=NumberToWords) and returns the value returned from the api
+*1st route*) This route queries the Number Conversion SOAP Api [NumberConversion API](https://www.dataaccess.com/webservicesserver/NumberConversion.wso?op=NumberToWords) and returns the value returned from the api
     - This route requires 1 paramater.
         - Paramater named 'num' : The value of this param will be an int (e.g. 5)
     - This route should return the value returned from the NumberConversion api.
 
-2nd route) This route queries [Covid 19 API](https://github.com/M-Media-Group/Covid-19-API) and returns the value of the `Confirmed` cases for `Texas`.
+*2nd route*) This route queries [Covid 19 API](https://github.com/M-Media-Group/Covid-19-API) and returns the value of the `Confirmed` cases for `Texas`.
     - This route required no paramaters.
     - This route should return the number of confirmed cases returned from the Covid 19 API
 
-3rd route) This route calculates the confirmed covid 19 cases for the state paramater passed and returns the value in word format.
+*3rd route*) This route calculates the confirmed covid 19 cases for the state paramater passed and returns the value in word format.
     - This route requires 1 paramater
         - Paramater named `state` : This will be any state within the United States.
     - This route will utilize the same NumberConversion Api from the 1st route and the Covid 19 API that was used in the 2nd route.
